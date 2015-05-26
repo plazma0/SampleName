@@ -6,17 +6,9 @@ using System.Threading.Tasks;
 
 namespace SampleName
 {
-    class Player
+    class Class
     {
         private static int ID;
         private static string Name;
-        private static Class Class;
-        private int Balance;
-        private Asset[] Assets;
-        private Item[] Items;
-        public Player(int _ID)
-        {
-            ID = _ID;
-        }
     }
 }
