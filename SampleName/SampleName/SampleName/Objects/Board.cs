@@ -20,8 +20,16 @@ namespace SampleName
             {
                 string line = StrmRdr.ReadLine();
                 string[] values = line.Split(',');
-                Asset tempAsset = new Asset(values[0], int.Parse(values[1]), int.Parse(values[2]), int.Parse(values[3]));
-                Lst_Tiles.Add(tempAsset);
+                if (values[2].Equals(""))
+                {
+                    Asset tempAsset = new Asset(values[0], int.Parse(values[1]), int.Parse(values[3]));
+                    Lst_Tiles.Add(tempAsset);
+                }
+                else
+                {
+                    Asset tempAsset = new Asset(values[0], int.Parse(values[1]), int.Parse(values[2]), int.Parse(values[3]));
+                    Lst_Tiles.Add(tempAsset);
+                }
             }
             Tiles = Lst_Tiles.ToArray();
         }

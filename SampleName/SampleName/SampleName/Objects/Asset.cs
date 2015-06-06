@@ -8,11 +8,11 @@ namespace SampleName
 {
     class Asset
     {
-        private static string Name;
-        private static int DefaultValue;
-        private static int MortgageValue;
-        private static int Ranking; //1 is browns
-        private static int CostOfHouse;
+        private string Name;
+        private int DefaultValue;
+        private int MortgageValue;
+        private int Ranking; //1 is browns
+        private int CostOfHouse;
         private int NoOfHouses;
         private int Rent;
         public Asset(string _Name, int _DefaultValue, int _MortgageValue, int _Ranking)
@@ -23,6 +23,12 @@ namespace SampleName
             Ranking = _Ranking;
         }
 
+        public Asset(string _Name, int _SubRank, int _Ranking)
+        {
+            Name = _Name;
+            DefaultValue = _SubRank;
+            Ranking = _Ranking;
+        }
         public int CalcHouseCost()
         {
             // Calculates the cost of each house for the property (Use DefaultValue & Ranking)
