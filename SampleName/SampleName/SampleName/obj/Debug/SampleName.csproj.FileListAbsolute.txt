@@ -1,1 +1,9 @@
 C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\bin\Debug\SampleName.exe.config
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\obj\Debug\SampleName.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\obj\Debug\SampleName.Form1.resources
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\obj\Debug\SampleName.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\obj\Debug\SampleName.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\bin\Debug\SampleName.exe
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\bin\Debug\SampleName.pdb
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\obj\Debug\SampleName.exe
+C:\Users\Administrator\Desktop\Programming\GitHub\SampleName\SampleName\SampleName\obj\Debug\SampleName.pdb

@@ -16,5 +16,10 @@ namespace SampleName
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Board LelBoardLel = new Board("Assets.csv");
+        }
     }
 }

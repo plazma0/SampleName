@@ -13,10 +13,20 @@ namespace SampleName
         private static Class Class;
         private int Balance;
         private Asset[] Assets;
-        private Item[] Items;
+        private List<Item> Items;
         public Player(int _ID)
         {
             ID = _ID;
+        }
+        
+        public void GiveItem(Item TargetItem) //Gives the player a target item
+        {
+            Items.Add(TargetItem);
+        }
+
+        public void TakeItem(Item TargetItem) //Takes a target item from the player
+        {
+            Items.Remove(TargetItem);
         }
     }
 }
