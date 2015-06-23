@@ -21,6 +21,7 @@ namespace SampleName
             DefaultValue = _DefaultValue;
             MortgageValue = _MortgageValue;
             Ranking = _Ranking;
+            CostOfHouse = CalcHouseCost();
         }
 
         public Asset(string _Name, int _SubRank, int _Ranking)
@@ -33,7 +34,7 @@ namespace SampleName
         {
             // Calculates the cost of each house for the property (Use DefaultValue & Ranking)
 
-            return 0;
+            return (DefaultValue / 2) + (NoOfHouses / 10) * Ranking;
         }
 
         public int CalcRent()
