@@ -23,10 +23,10 @@ namespace SampleName
         {
             Items.Add(TargetItem);
         }
-
         public void TakeItem(Item TargetItem) //Takes a target item from the player
         {
             Items.Remove(TargetItem);
+            
         }
     }
 }
